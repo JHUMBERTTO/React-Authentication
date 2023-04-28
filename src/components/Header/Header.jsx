@@ -3,22 +3,22 @@ import './header.scss'
 const Header = () => {
   return (
     <nav className='header'>
-      <a href='/' className='headerLogo'>LOGO</a>
-      <ul className='headerNavList'>
-        <li className='headerListItem'>
-        <a href='/' className='HeaderItemLink'>Home</a>
+      <a href='/' className='header__logo'>LOGO</a>
+      <ul className='header__nav-list'>
+        <li className='header__list-item'>
+        <a href='/' className='header__item-link'>Home</a>
           </li>
-        <li className='headerListItem'>
-        <a href='/dashboard' className='HeaderItemLink'>Dashboard</a>
+        <li className='header__list-item'>
+        <a href='/dashboard' className='header__item-link'>Dashboard</a>
           </li>
-        <li className='headerListItem'>
-        <a href='/secret' className='HeaderItemLink'>Secret</a>
+        <li className='header__list-item'>
+        <a href='/secret' className='header__item-link'>Secret</a>
           </li>
-        <li className='headerListItem'>
-        <a href='/login' className='HeaderItemLink'>Login</a>
+        <li className='header__list-item'>
+        <a href='/login' className='header__item-link'>Login</a>
           </li>
-        <li className='headerListItem'>
-        <a href='/singup' className='HeaderItemLink'>Singup</a>
+        <li className='header__list-item'>
+        <a href='/singup' className='header__item-link'>Singup</a>
         </li>
       </ul>
     </nav>
