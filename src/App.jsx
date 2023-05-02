@@ -1,4 +1,6 @@
 import Header from './components/Header/Header'
+import { BrowserRouter } from 'react-router-dom'
+import RoutesIndex from './routes/Index'
 import './App.css'
 
 function App() {
@@ -6,8 +8,10 @@ function App() {
 
   return (
     <>
-      <Header/>
-      <h1>React Auth</h1>
+      <BrowserRouter>
+        <Header/>
+        <RoutesIndex />
+      </BrowserRouter>
     </>
   )
 }
